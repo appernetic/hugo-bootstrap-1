@@ -14,9 +14,11 @@ You can find our site using this theme [here](https://appernetic.io.)
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot2.png)
 
-Hugo-bootstrap-mod theme used with ```showRightSidebar = true``` and ```[params.theme] name = "paper"``` 
+Hugo-bootstrap-mod theme used with ```showRightSidebar = true``` and ```[params.theme] name = "paper"``` .
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot.png)
+
+Hugo-bootstrap-mod theme with default settings.
 
 
 ## Installation with Appernetic Static Site Generator as a Service
