@@ -14,7 +14,9 @@ You can find our site using this theme [here](https://appernetic.io.)
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot2.png)
 
+
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot.png)
+
 
 ## Installation with Appernetic Static Site Generator as a Service
 
