@@ -17,7 +17,7 @@ You can find our site using this theme [here](https://appernetic.io.)
 ## Installation with Appernetic Static Site Generator as a Service
 
 1. Click the arrow to the left of the blue "Preview" button up to the right, select "Themes".
-2. At the bottom of the Themes page paste the git link from GitHub (see image below).
+2. At the bottom of the Themes page paste the git link from GitHub (see image fig 1).
 3. If you want to update your config settings file click the "Use" button in the theme modal popup (WARNING! The current settings file will be overwritten).
 4. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
 5. Click the button: Preview or Publish
@@ -25,6 +25,7 @@ You can find our site using this theme [here](https://appernetic.io.)
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/cloneatheme.png)
 
+Figure 1. Copy git link from GitHub.
 
 ## Installation with Hugo
 
