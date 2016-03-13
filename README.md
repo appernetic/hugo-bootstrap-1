@@ -1,5 +1,5 @@
-hugo-bootstrap
-==============
+hugo-bootstrap-mod
+==================
 A theme with bootstrap, bootswatch(optional), font-awesome, highlightjs
 
 *NOTE: This theme is copied from Hyde-Y. Not everything is ported to bootstrap.
@@ -8,13 +8,20 @@ Feel free to make changes and open pull requests.*
 
 <small>Forked from [Hyde-Y](https://github.com/enten/hyde-y)</small>
 
-You can find a live site using this theme [here](http://mmrath.com/).
+You can find our site using this theme [here](https://appernetic.io.)
 
 ## Screenshot
 
-![preview](https://github.com/mmrath/hugo-bootstrap/blob/master/images/screenshot.png)
+![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot.png)
 
-## Installation
+## Installation with Appernetic Static Site Generator as a Service
+
+1. Clone theme
+2. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
+3. Click the button: Preview or Publish
+4. Wait 10 min or clear your local browser cache
+
+## Installation with Hugo
 
 ```
 $ cd your_site_repo/
