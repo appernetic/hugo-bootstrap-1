@@ -16,10 +16,14 @@ You can find our site using this theme [here](https://appernetic.io.)
 
 ## Installation with Appernetic Static Site Generator as a Service
 
-1. Clone theme
-2. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
-3. Click the button: Preview or Publish
-4. Wait 10 min or clear your local browser cache
+1. Click the arrow to the left of the blue Preview button up to the right, select Themes.
+2. At the bottom of the Themes page paste the git link from GitHub (see image below).
+3. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
+4. Click the button: Preview or Publish
+5. Wait 10 min or clear your local browser cache to see changes at GitHub. In preview content is updated imediatley but CSS changes need a cache clear to be visible.  
+
+![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/cloneatheme.png)
+
 
 ## Installation with Hugo
 
@@ -98,6 +102,13 @@ disqusShortname = "your_disqus_shortname"
 #
 # All parameters below here are optional and can be mixed and matched.
 #
+
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly, 
+# default, flatly, journal,  lumen, paper, readable, sandstone, simplex, 
+# slate, spacelab, superhero, united, yeti. 
+#[params.theme]
+#  name = "paper"
+  
 [params]
     # You can use markdown here.
     brand = "foobar"
@@ -112,7 +123,7 @@ disqusShortname = "your_disqus_shortname"
     home = "home"
 
     # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
+    # Check the static/css/highlight directory for options. 
     highlight = "default"
 
     # Google Analytics.
