@@ -87,7 +87,7 @@ Just run `hugo --theme=hugo-bootstrap` to generate your site!
 
 ## Configuration
 
-### Hugo
+### Hugo (Applies to Appernetic.io alo)
 
 An example of what your site's `config.toml` could look like. All theme-specific parameters are under `[params]` and standard Hugo parameters are used where possible.
 
