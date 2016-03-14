@@ -183,7 +183,7 @@ disqusShortname = "your_disqus_shortname"
 
 ### Menu
 
-Create `data/Menu.toml` to configure the sidebar navigation links. Example below.
+Create `data/Menu.toml` to configure the top menu navigation links. Example below.
 
 ```toml
 [about]
