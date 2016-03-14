@@ -44,11 +44,13 @@ In Appernetic.io you only have access to the Content folder and the config setti
 To access the data folder you have two options:
 
 Option 1
+
 1. First fork this theme repo.
 2. Find the data folder and add a Menu.toml file.
 2. Clone your forked repo in Appernetic.io
 
 Option 2
+
 1. Fork this repo.
 2. Use Git or GitHub Desktop on your local computer to clone your forked theme repo.
 3. Create a Menu.toml file in your data folder with you favorite editor.
