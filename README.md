@@ -67,7 +67,7 @@ $ git clone https://github.com/mmrath/hugo-bootstrap
 
 See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
 
-## Usage
+## Usage (Applies to Appernetic.io also)
 
 This theme expects a relatively standard Hugo blog/personal site layout:
 ```
@@ -87,7 +87,7 @@ Just run `hugo --theme=hugo-bootstrap` to generate your site!
 
 ## Configuration
 
-### Hugo (Applies to Appernetic.io also)
+### Hugo 
 
 An example of what your site's `config.toml` could look like. All theme-specific parameters are under `[params]` and standard Hugo parameters are used where possible.
 
