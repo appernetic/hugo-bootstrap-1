@@ -8,13 +8,14 @@ Feel free to make changes and open pull requests.*
 
 <small>Forked from [Hyde-Y](https://github.com/enten/hyde-y)</small>
 
-You can find our site using this theme [here](https://appernetic.io.)
+Here you check out Appernetic's blog site using this [theme](https://appernetic.io.)
 
 ## Screenshots
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot2.png)
 
 Hugo-bootstrap-mod theme used with ```showRightSidebar = true``` and ```[params.theme] name = "paper"``` .
+
 
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/screenshot.png)
 
@@ -27,6 +28,7 @@ Hugo-bootstrap-mod theme with default settings.
 2. At the bottom of the Themes page paste the git link from GitHub (see image fig 1).
 3. If you want to update your config settings file click the "Use" button in the theme modal popup (WARNING! The current settings file will be overwritten), otherwise follow step 4.
 4. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
+5. To configure menues and footer you need access to the data folder, read more in section "Access data folders". 
 5. Click the button: Preview or Publish
 6. Wait 10 min or clear your local browser cache to see changes at GitHub. In preview content is updated imediatley but CSS changes need a cache clear to be visible.  
 
@@ -34,6 +36,23 @@ Hugo-bootstrap-mod theme with default settings.
 ![preview](https://raw.githubusercontent.com/appernetic/hugo-bootstrap-mod/master/images/cloneatheme.png)
 
 Figure 1. Copy git link from GitHub.
+
+## Access data folders
+
+In Appernetic.io you only have access to the Content folder and the config settings file. 
+
+To access the data folder you have two options:
+
+Option 1
+1. First fork this theme repo.
+2. Find the data folder and add a Menu.toml file.
+2. Clone your forked repo in Appernetic.io
+
+Option 2
+1. Fork this repo.
+2. Use Git or GitHub Desktop on your local computer to clone your forked theme repo.
+3. Create a Menu.toml file in your data folder with you favorite editor.
+4. Sync with your GitHub theme repo.
 
 ## Installation with Hugo
 
