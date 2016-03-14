@@ -8,7 +8,7 @@ Feel free to make changes and open pull requests.*
 
 <small>Forked from [Hyde-Y](https://github.com/enten/hyde-y)</small>
 
-Here you check out Appernetic's blog site using this [theme](https://appernetic.github.io/).
+Here you can check out Appernetic's blog site using this [theme](https://appernetic.github.io/).
 
 ## Screenshots
 
