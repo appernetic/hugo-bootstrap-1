@@ -12,7 +12,7 @@
         <ul>
         {{ range first 10 (where .Site.Pages "Type" "post") }}
           <li>
-          <a href="{{ .Permalink }}" class="clearfix">{{ .Title }}</a>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
           </li>
         {{ end }}
         </ul>

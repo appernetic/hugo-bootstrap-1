@@ -28,7 +28,7 @@ Hugo-bootstrap-mod theme with default settings.
 2. At the bottom of the Themes page paste the git link from GitHub (see image fig 1).
 3. If you want to update your config settings file click the "Use" button in the theme modal popup (WARNING! The current settings file will be overwritten), otherwise follow step 4.
 4. In Settings change the line theme = "theme-name-here" to theme = "hugo-bootstrap-mod"
-5. To configure menues and footer you need access to the data folder, read more in section "Access data folders". 
+5. To configure menues and footer you need access to the data folder, read more in section "Access data folders".
 5. Click the button: Preview or Publish
 6. Wait 10 min or clear your local browser cache to see changes at GitHub. In preview content is updated imediatley but CSS changes need a cache clear to be visible.  
 
@@ -39,7 +39,7 @@ Figure 1. Copy git link from GitHub.
 
 ## Access data folders
 
-In Appernetic.io you only have access to the Content folder and the config settings file. 
+In Appernetic.io you only have access to the Content folder and the config settings file.
 
 To access the data folder you have two options:
 
@@ -67,7 +67,7 @@ $ git clone https://github.com/mmrath/hugo-bootstrap
 
 See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
 
-## Usage 
+## Usage
 
 This theme expects a relatively standard Hugo blog/personal site layout:
 ```
@@ -87,7 +87,7 @@ Just run `hugo --theme=hugo-bootstrap` to generate your site!
 
 ## Configuration (Applies to Appernetic.io also)
 
-### Hugo 
+### Hugo
 
 An example of what your site's `config.toml` could look like. All theme-specific parameters are under `[params]` and standard Hugo parameters are used where possible.
 
@@ -134,12 +134,12 @@ disqusShortname = "your_disqus_shortname"
 # All parameters below here are optional and can be mixed and matched.
 #
 
-# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly, 
-# default, flatly, journal,  lumen, paper, readable, sandstone, simplex, 
-# slate, spacelab, superhero, united, yeti. 
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+# default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
+# slate, spacelab, superhero, united, yeti.
 #[params.theme]
 #  name = "paper"
-  
+
 [params]
     # You can use markdown here.
     brand = "foobar"
@@ -154,7 +154,7 @@ disqusShortname = "your_disqus_shortname"
     home = "home"
 
     # Select a syntax highight.
-    # Check the static/css/highlight directory for options. 
+    # Check the static/css/highlight directory for options.
     highlight = "default"
 
     # Google Analytics.
@@ -214,14 +214,21 @@ Create `data/FootMenu.toml` to configure the footer navigation links. Example be
 
 ## Tips
 
-* If you've added `theme = "hugo-bootstrap"` to your `config.toml`, you don't need to keep using the `--theme=hugo-bootstrap` flag!
+* If you've added `theme = "hugo-bootstrap-mod"` to your `config.toml`, you don't need to keep using the `--theme=hugo-bootstrap` flag!
 * Although all of the syntax highlight CSS files under the theme's `static/css/highlight` are bundled with the site, only the one you choose will be included in the page and delivered to the browser.
 * Change the favicon by providing your own as `static/favicon.png` (and `static/touch-icon-144-precomposed.png` for Apple devices) in your site directory.
 * Hugo makes it easy to override theme layout and behaviour, read about it [here](http://gohugo.io/themes/customizing).
 * Pagination is set to 10 items by default, change it by updating `paginate = 10` in your `config.toml`.
 
-## Changes and enhancements from the original theme
+## Changes and enhancements by Appernetic from the [Murali Rath](https://github.com/mmrath/hugo-bootstrap/) theme version
+* Added more space between top menu and content.
+* Removed ```class="clearfix"``` in sidebar links.
+* Added instructions in the README for use with Appernetic.io.
+* Added favicon.
+* Added config.toml file to the theme folder.
+* Added correct image links to images in the README file.
 
+## Changes and enhancements by [Murali Rath](https://github.com/mmrath/hugo-bootstrap/) from the original theme
 * Modified to work with bootstrap and bootswatch
 * ...many other small layout tweaks!
 
@@ -231,7 +238,7 @@ Obviously largely a port of the awesome [Hyde-Y](https://github.com/enten/hyde-y
 
 ## Questions, ideas, bugs, pull requests?
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/mmrath/hugo-bootstrap/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/appernetic/hugo-bootstrap-mod/issues).
 
 ## License
 

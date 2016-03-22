@@ -1,4 +1,3 @@
-# hostname (and path) to the root eg. http://spf13.com/
 baseurl = "/"
 
 # Site title
@@ -25,7 +24,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "your_disqus_shortname"
+disqusShortname = "appernetic"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -52,7 +51,7 @@ disqusShortname = "your_disqus_shortname"
     topline = "few words about your site"
     footline = "code with <i class='fa fa-heart'></i>"
 
-    # Text for the top menu link, which goes the root URL for the site.
+    # Text for the top menu link, which goes to the root URL for the site.
     # Default (if omitted) is "Home".
     home = "home"
 
@@ -66,12 +65,12 @@ disqusShortname = "your_disqus_shortname"
     googleAnalytics = "Your Google Analytics tracking code"
 
     # Sidebar social links.
-    github = "enten/hugo-boilerplate" # Your Github profile ID
+    github = "Appernetic" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
     linkedin = "" # Your LinkedIn profile ID (from public URL)
-    googleplus = "" # Your Google+ profile ID
-    facebook = "" # Your Facebook profile ID
-    twitter = "" # Your Twitter profile ID
+    googleplus = "111074595662096336201" # Your Google+ profile ID
+    facebook = "Appernetic" # Your Facebook profile ID
+    twitter = "Appernetic" # Your Twitter profile ID
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
